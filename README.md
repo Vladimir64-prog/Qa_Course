@@ -2,7 +2,7 @@
 ![Developer Tools](https://github.com/Vladimir64-prog/Qa_Course/blob/main/ChromeDevtoolsArtboard-1-8.webp)
 DevTools – это набор инструментов, встроенных в браузер, для создания и отладки сайтов. С их помощью можно просматри- вать исходный код сайта, отлаживать работу frontend: HTML, CSS и JavaScript. Также DevTools позволяет проверять сетевой трафик, быстродействие сайта и многое другое. С помощью режима эмуля- ции DevTools позволяет просматривать веб-страницы в мобильном виде.
 
-Как начать работу с DevTools
+## Как начать работу с DevTools
 
 1.Сочетанием горячих клавиш: для Windows и Linux Ctrl + Shift + I, для macOS cmd + Shift + I.
 
@@ -10,33 +10,35 @@ DevTools – это набор инструментов, встроенных в
 
 3.Через меню браузера: в правом верхнем углу нажать на три точки, в меню выбрать раздел «Дополнительные инструменты» и далее «Инструменты разработчика».
 
-Elements
+## Elements
 
 ![Elements](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_1.png)
 
 Здесь отображается весь HTML- и CSS-код открытой страницы. На данной вкладке можно просмотреть и внести исправления в файлы CSS и JavaScript, изменить элементы DOM (программного интерфейса (API) для HTML- и XML-документов).
 
-Console
+## Console
 
 ![Console](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_2.png)
 
 Консоль позволяет смотреть вывод JavaScript, а также исполнять свой код для тестирования и отладки страницы. Если на открытой странице не подгрузились какие-либо данные, например стили, шрифты или картинки, здесь отобразятся соответствующие ошибки с подробным описанием. Также в консоль можно ввести команду на языке JavaScript, и она выполнится.
 
-Sources
+## Sources
 
 ![Sources](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_3.png)
 
-Network
+## Network
 
 ![Network](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_4.png)
 
 На вкладке отображаются сетевые запросы, который делает сайт. Как правило, ее используют при оптимизации скорости загрузки страницы, а также для мониторинга выполняемых запросов. Запросы к данным представлены в виде таблицы. Сверху расположены инструменты: очистка таблицы, включение и отключение записи запросов и другие. Под таблицей можно увидеть количество запросов, общее время загрузки всех данных, время загрузки DOM и ресурсов, участвующих в отображении текущей страницы.
 
-Performance
+## Performance
 
 ![Performance](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_5.png)
 
-Memory
+Вкладка отображает нагрузку, которую создает сайт на компьютер пользователя. Здесь можно увидеть показатели FPS, загрузки CPU и сетевые запросы, необходимые данные и инструменты для повышения производительности страницы.
+
+## Memory
 
 ![Memory](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_6.png)
 
@@ -48,13 +50,13 @@ Memory
 
 3.Allocation sampling. Профайлер записывает, как распределяется память на отдельные функции JavaScript.
 
-Application
+## Application
 
 ![Application](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_7.png)
 
 Панель, где можно быстро очистить хранилище и кэш, а также управлять базами данных.
 
-Просмотр внешнего вида сайта на разных устройствах.
+## Просмотр внешнего вида сайта на разных устройствах.
 
 ![Devices](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_8.png)
 
