@@ -26,6 +26,8 @@ DevTools – это набор инструментов, встроенных в
 
 ![Sources](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_3.png)
 
+Вкладка отображает загруженные файлы из всех источников, к которым обращался сайт. В большей степени она используется при отладке кода, позволяет увидеть все файлы и просмотреть их содержимое. Sources можно использовать в качестве полноценного редактора кода, получив доступ к локальным файлам через Workspaces.
+
 ## Network
 
 ![Network](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_4.png)
