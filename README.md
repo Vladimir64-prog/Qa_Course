@@ -12,37 +12,43 @@ DevTools – это набор инструментов, встроенных в
 
 ## Elements
 
-![Elements](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_1.png)
+![Screenshot_1](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/39d70406-eb49-44d6-b7ed-cd0447b3fc06)
+
 
 Здесь отображается весь HTML- и CSS-код открытой страницы. На данной вкладке можно просмотреть и внести исправления в файлы CSS и JavaScript, изменить элементы DOM (программного интерфейса (API) для HTML- и XML-документов).
 
 ## Console
 
-![Console](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_2.png)
+![Screenshot_2](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/97b933ef-d5ab-47e8-8e87-94e5d1d059f4)
+
 
 Консоль позволяет смотреть вывод JavaScript, а также исполнять свой код для тестирования и отладки страницы. Если на открытой странице не подгрузились какие-либо данные, например стили, шрифты или картинки, здесь отобразятся соответствующие ошибки с подробным описанием. Также в консоль можно ввести команду на языке JavaScript, и она выполнится.
 
 ## Sources
 
-![Sources](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_3.png)
+![Screenshot_3](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/97c1b1aa-3a63-446b-bac0-70a99473965b)
+
 
 Вкладка отображает загруженные файлы из всех источников, к которым обращался сайт. В большей степени она используется при отладке кода, позволяет увидеть все файлы и просмотреть их содержимое. Sources можно использовать в качестве полноценного редактора кода, получив доступ к локальным файлам через Workspaces.
 
 ## Network
 
-![Network](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_4.png)
+![Screenshot_4](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/545daf1b-c7ca-485a-9301-c17341adb1c4)
+
 
 На вкладке отображаются сетевые запросы, который делает сайт. Как правило, ее используют при оптимизации скорости загрузки страницы, а также для мониторинга выполняемых запросов. Запросы к данным представлены в виде таблицы. Сверху расположены инструменты: очистка таблицы, включение и отключение записи запросов и другие. Под таблицей можно увидеть количество запросов, общее время загрузки всех данных, время загрузки DOM и ресурсов, участвующих в отображении текущей страницы.
 
 ## Performance
 
-![Performance](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_5.png)
+![Screenshot_5](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/637dfada-fd2f-463b-b56a-b33d9b91c04e)
+
 
 Вкладка отображает нагрузку, которую создает сайт на компьютер пользователя. Здесь можно увидеть показатели FPS, загрузки CPU и сетевые запросы, необходимые данные и инструменты для повышения производительности страницы.
 
 ## Memory
 
-![Memory](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_6.png)
+![Screenshot_6](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/50283a0b-cb52-4303-b095-591682de3163)
+
 
 Здесь расположено несколько инструментов, которые помогают отслеживать, какую нагрузку на систему оказывает выполнение кода:
 
@@ -54,12 +60,14 @@ DevTools – это набор инструментов, встроенных в
 
 ## Application
 
-![Application](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_7.png)
+![Screenshot_7](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/4237e670-dce8-4e01-9eed-94954d96a359)
+
 
 Панель, где можно быстро очистить хранилище и кэш, а также управлять базами данных.
 
 ## Просмотр внешнего вида сайта на разных устройствах.
 
-![Devices](https://github.com/Vladimir64-prog/Qa_Course/blob/main/Screenshot_8.png)
+![Screenshot_8](https://github.com/Vladimir64-prog/Qa_Course/assets/128613462/2801b94a-9d06-4f62-a6f1-8373223fb39a)
+
 
 В режиме разработчика Google Chrome можно посмотреть, как выглядит текущая страница практически на любом устройстве. Сделать это можно комбинацией клавиш Ctrl + Shift + M для Windows и Linux и cmd + Shift + M для macOS. Также можно кликнуть на значок телефона в левом верхнем углу консоли. Теперь можно выбрать абсолютно любое разрешение или конкретное устройство из списка Dimensions. Также инструмент позволяет посмотреть, как будет отображаться страница при разной скорости интернета.
